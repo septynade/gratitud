@@ -1,0 +1,407 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		630733B425A86D9800C82004 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630733B325A86D9800C82004 /* AppDelegate.swift */; };
+		630733B625A86D9800C82004 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630733B525A86D9800C82004 /* SceneDelegate.swift */; };
+		630733BB25A86D9800C82004 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 630733B925A86D9800C82004 /* Main.storyboard */; };
+		630733BE25A86D9800C82004 /* hamdalah.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 630733BC25A86D9800C82004 /* hamdalah.xcdatamodeld */; };
+		630733C025A86D9900C82004 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 630733BF25A86D9900C82004 /* Assets.xcassets */; };
+		630733C325A86D9900C82004 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 630733C125A86D9900C82004 /* LaunchScreen.storyboard */; };
+		6307346525A86FA200C82004 /* EntryCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6307346425A86FA200C82004 /* EntryCollectionViewController.swift */; };
+		6388E06D25A8713C0075205D /* QuoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6388E06C25A8713C0075205D /* QuoteViewController.swift */; };
+		6388E07125A873C50075205D /* Entry+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6388E06F25A873C50075205D /* Entry+CoreDataClass.swift */; };
+		6388E07225A873C50075205D /* Entry+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6388E07025A873C50075205D /* Entry+CoreDataProperties.swift */; };
+		6388E07625A8874D0075205D /* EntryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6388E07525A8874D0075205D /* EntryCell.swift */; };
+		63ABC2B325A88A1E00750E4C /* NewEntryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63ABC2B225A88A1E00750E4C /* NewEntryViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		630733B025A86D9800C82004 /* hamdalah.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hamdalah.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		630733B325A86D9800C82004 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		630733B525A86D9800C82004 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		630733BA25A86D9800C82004 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		630733BD25A86D9800C82004 /* hamdalah.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = hamdalah.xcdatamodel; sourceTree = "<group>"; };
+		630733BF25A86D9900C82004 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		630733C225A86D9900C82004 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		630733C425A86D9900C82004 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6307346425A86FA200C82004 /* EntryCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EntryCollectionViewController.swift; sourceTree = "<group>"; };
+		6388E06C25A8713C0075205D /* QuoteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteViewController.swift; sourceTree = "<group>"; };
+		6388E06F25A873C50075205D /* Entry+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Entry+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
+		6388E07025A873C50075205D /* Entry+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Entry+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
+		6388E07525A8874D0075205D /* EntryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryCell.swift; sourceTree = "<group>"; };
+		63ABC2B225A88A1E00750E4C /* NewEntryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = NewEntryViewController.swift; path = hamdalah/View/NewEntryViewController.swift; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		630733AD25A86D9800C82004 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		630733A725A86D9800C82004 = {
+			isa = PBXGroup;
+			children = (
+				630733B225A86D9800C82004 /* hamdalah */,
+				630733B125A86D9800C82004 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		630733B125A86D9800C82004 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				630733B025A86D9800C82004 /* hamdalah.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		630733B225A86D9800C82004 /* hamdalah */ = {
+			isa = PBXGroup;
+			children = (
+				630733B325A86D9800C82004 /* AppDelegate.swift */,
+				630733B525A86D9800C82004 /* SceneDelegate.swift */,
+				630733CF25A86EEF00C82004 /* Model */,
+				630733D025A86F0300C82004 /* View */,
+				6307346325A86FA200C82004 /* Controller */,
+				630733C425A86D9900C82004 /* Info.plist */,
+			);
+			path = hamdalah;
+			sourceTree = "<group>";
+		};
+		630733CF25A86EEF00C82004 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6388E06F25A873C50075205D /* Entry+CoreDataClass.swift */,
+				6388E07025A873C50075205D /* Entry+CoreDataProperties.swift */,
+				630733BC25A86D9800C82004 /* hamdalah.xcdatamodeld */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		630733D025A86F0300C82004 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				630733B925A86D9800C82004 /* Main.storyboard */,
+				6388E07525A8874D0075205D /* EntryCell.swift */,
+				630733BF25A86D9900C82004 /* Assets.xcassets */,
+				630733C125A86D9900C82004 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6307346325A86FA200C82004 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				63ABC2B225A88A1E00750E4C /* NewEntryViewController.swift */,
+				6307346425A86FA200C82004 /* EntryCollectionViewController.swift */,
+				6388E06C25A8713C0075205D /* QuoteViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		630733AF25A86D9800C82004 /* hamdalah */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 630733C725A86D9900C82004 /* Build configuration list for PBXNativeTarget "hamdalah" */;
+			buildPhases = (
+				630733AC25A86D9800C82004 /* Sources */,
+				630733AD25A86D9800C82004 /* Frameworks */,
+				630733AE25A86D9800C82004 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = hamdalah;
+			productName = hamdalah;
+			productReference = 630733B025A86D9800C82004 /* hamdalah.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		630733A825A86D9800C82004 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					630733AF25A86D9800C82004 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+				};
+			};
+			buildConfigurationList = 630733AB25A86D9800C82004 /* Build configuration list for PBXProject "hamdalah" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 630733A725A86D9800C82004;
+			productRefGroup = 630733B125A86D9800C82004 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				630733AF25A86D9800C82004 /* hamdalah */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		630733AE25A86D9800C82004 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				630733C325A86D9900C82004 /* LaunchScreen.storyboard in Resources */,
+				630733C025A86D9900C82004 /* Assets.xcassets in Resources */,
+				630733BB25A86D9800C82004 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		630733AC25A86D9800C82004 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				630733BE25A86D9800C82004 /* hamdalah.xcdatamodeld in Sources */,
+				63ABC2B325A88A1E00750E4C /* NewEntryViewController.swift in Sources */,
+				6388E07625A8874D0075205D /* EntryCell.swift in Sources */,
+				6388E07125A873C50075205D /* Entry+CoreDataClass.swift in Sources */,
+				630733B425A86D9800C82004 /* AppDelegate.swift in Sources */,
+				6388E06D25A8713C0075205D /* QuoteViewController.swift in Sources */,
+				6307346525A86FA200C82004 /* EntryCollectionViewController.swift in Sources */,
+				6388E07225A873C50075205D /* Entry+CoreDataProperties.swift in Sources */,
+				630733B625A86D9800C82004 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		630733B925A86D9800C82004 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				630733BA25A86D9800C82004 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		630733C125A86D9900C82004 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				630733C225A86D9900C82004 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		630733C525A86D9900C82004 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		630733C625A86D9900C82004 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		630733C825A86D9900C82004 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 72R42JA95Z;
+				INFOPLIST_FILE = hamdalah/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.septynade.hamdalah;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		630733C925A86D9900C82004 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 72R42JA95Z;
+				INFOPLIST_FILE = hamdalah/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.septynade.hamdalah;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		630733AB25A86D9800C82004 /* Build configuration list for PBXProject "hamdalah" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				630733C525A86D9900C82004 /* Debug */,
+				630733C625A86D9900C82004 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		630733C725A86D9900C82004 /* Build configuration list for PBXNativeTarget "hamdalah" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				630733C825A86D9900C82004 /* Debug */,
+				630733C925A86D9900C82004 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		630733BC25A86D9800C82004 /* hamdalah.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				630733BD25A86D9800C82004 /* hamdalah.xcdatamodel */,
+			);
+			currentVersion = 630733BD25A86D9800C82004 /* hamdalah.xcdatamodel */;
+			path = hamdalah.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 630733A825A86D9800C82004 /* Project object */;
+}
