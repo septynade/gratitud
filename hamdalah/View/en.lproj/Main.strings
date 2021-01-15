@@ -1,0 +1,21 @@
+
+/* Class = "UILabel"; text = "22"; ObjectID = "2Dl-m6-jFk"; */
+"2Dl-m6-jFk.text" = "22";
+
+/* Class = "UILabel"; text = "preview"; ObjectID = "UkY-tK-LtE"; */
+"UkY-tK-LtE.text" = "preview";
+
+/* Class = "UILabel"; text = "Author"; ObjectID = "WCt-cs-jTf"; */
+"WCt-cs-jTf.text" = "Author";
+
+/* Class = "UILabel"; text = "JAN"; ObjectID = "fAw-yF-bdd"; */
+"fAw-yF-bdd.text" = "JAN";
+
+/* Class = "UITabBarItem"; title = "Daily Zen"; ObjectID = "ngj-e1-dgr"; */
+"ngj-e1-dgr.title" = "Daily Zen";
+
+/* Class = "UILabel"; text = "\"Daily zen\""; ObjectID = "sg8-se-r0E"; */
+"sg8-se-r0E.text" = "\"Daily zen\"";
+
+/* Class = "UITabBarItem"; title = "Journal"; ObjectID = "tcm-rD-WEp"; */
+"tcm-rD-WEp.title" = "Journal";

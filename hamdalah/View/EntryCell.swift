@@ -7,12 +7,16 @@
 
 import UIKit
 
-class EntryCell: UICollectionViewCell {
+class EntryCell: UITableViewCell {
     
     static let identifier = "EntryCell"
     
     @IBOutlet var dateLabel: UILabel!
-    @IBOutlet var monthLabel: UILabel!
     @IBOutlet var previewLabel: UILabel!
-
+    
+    func setCell(entry: Entry) {
+        
+        previewLabel.text = entry.text
+        dateLabel.text = entry.fullDate()
+    }
 }

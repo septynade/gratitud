@@ -13,12 +13,14 @@
 		630733BE25A86D9800C82004 /* hamdalah.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 630733BC25A86D9800C82004 /* hamdalah.xcdatamodeld */; };
 		630733C025A86D9900C82004 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 630733BF25A86D9900C82004 /* Assets.xcassets */; };
 		630733C325A86D9900C82004 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 630733C125A86D9900C82004 /* LaunchScreen.storyboard */; };
-		6307346525A86FA200C82004 /* EntryCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6307346425A86FA200C82004 /* EntryCollectionViewController.swift */; };
-		6388E06D25A8713C0075205D /* QuoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6388E06C25A8713C0075205D /* QuoteViewController.swift */; };
+		6307346525A86FA200C82004 /* EntriesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6307346425A86FA200C82004 /* EntriesView.swift */; };
+		6388E06D25A8713C0075205D /* DailyZen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6388E06C25A8713C0075205D /* DailyZen.swift */; };
 		6388E07125A873C50075205D /* Entry+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6388E06F25A873C50075205D /* Entry+CoreDataClass.swift */; };
 		6388E07225A873C50075205D /* Entry+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6388E07025A873C50075205D /* Entry+CoreDataProperties.swift */; };
 		6388E07625A8874D0075205D /* EntryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6388E07525A8874D0075205D /* EntryCell.swift */; };
-		63ABC2B325A88A1E00750E4C /* NewEntryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63ABC2B225A88A1E00750E4C /* NewEntryViewController.swift */; };
+		639EE50625AFE86700DFD8D9 /* UpdateEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 639EE50525AFE86700DFD8D9 /* UpdateEntry.swift */; };
+		639EE50925B1B26E00DFD8D9 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 639EE50825B1B26E00DFD8D9 /* Settings.swift */; };
+		63ABC2B325A88A1E00750E4C /* NewEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63ABC2B225A88A1E00750E4C /* NewEntry.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,12 +32,15 @@
 		630733BF25A86D9900C82004 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		630733C225A86D9900C82004 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		630733C425A86D9900C82004 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6307346425A86FA200C82004 /* EntryCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EntryCollectionViewController.swift; sourceTree = "<group>"; };
-		6388E06C25A8713C0075205D /* QuoteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteViewController.swift; sourceTree = "<group>"; };
+		6307346425A86FA200C82004 /* EntriesView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EntriesView.swift; sourceTree = "<group>"; };
+		6388E06C25A8713C0075205D /* DailyZen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyZen.swift; sourceTree = "<group>"; };
 		6388E06F25A873C50075205D /* Entry+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Entry+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
 		6388E07025A873C50075205D /* Entry+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Entry+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
 		6388E07525A8874D0075205D /* EntryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryCell.swift; sourceTree = "<group>"; };
-		63ABC2B225A88A1E00750E4C /* NewEntryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = NewEntryViewController.swift; path = hamdalah/View/NewEntryViewController.swift; sourceTree = SOURCE_ROOT; };
+		639EE50125AFD44E00DFD8D9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		639EE50525AFE86700DFD8D9 /* UpdateEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateEntry.swift; sourceTree = "<group>"; };
+		639EE50825B1B26E00DFD8D9 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		63ABC2B225A88A1E00750E4C /* NewEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = NewEntry.swift; path = hamdalah/View/NewEntry.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,9 +107,11 @@
 		6307346325A86FA200C82004 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				63ABC2B225A88A1E00750E4C /* NewEntryViewController.swift */,
-				6307346425A86FA200C82004 /* EntryCollectionViewController.swift */,
-				6388E06C25A8713C0075205D /* QuoteViewController.swift */,
+				63ABC2B225A88A1E00750E4C /* NewEntry.swift */,
+				6307346425A86FA200C82004 /* EntriesView.swift */,
+				639EE50525AFE86700DFD8D9 /* UpdateEntry.swift */,
+				6388E06C25A8713C0075205D /* DailyZen.swift */,
+				639EE50825B1B26E00DFD8D9 /* Settings.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -180,13 +187,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				630733BE25A86D9800C82004 /* hamdalah.xcdatamodeld in Sources */,
-				63ABC2B325A88A1E00750E4C /* NewEntryViewController.swift in Sources */,
+				63ABC2B325A88A1E00750E4C /* NewEntry.swift in Sources */,
 				6388E07625A8874D0075205D /* EntryCell.swift in Sources */,
 				6388E07125A873C50075205D /* Entry+CoreDataClass.swift in Sources */,
 				630733B425A86D9800C82004 /* AppDelegate.swift in Sources */,
-				6388E06D25A8713C0075205D /* QuoteViewController.swift in Sources */,
-				6307346525A86FA200C82004 /* EntryCollectionViewController.swift in Sources */,
+				6388E06D25A8713C0075205D /* DailyZen.swift in Sources */,
+				6307346525A86FA200C82004 /* EntriesView.swift in Sources */,
+				639EE50625AFE86700DFD8D9 /* UpdateEntry.swift in Sources */,
 				6388E07225A873C50075205D /* Entry+CoreDataProperties.swift in Sources */,
+				639EE50925B1B26E00DFD8D9 /* Settings.swift in Sources */,
 				630733B625A86D9800C82004 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -198,6 +207,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				630733BA25A86D9800C82004 /* Base */,
+				639EE50125AFD44E00DFD8D9 /* en */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";

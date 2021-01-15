@@ -7,7 +7,7 @@
 
 import UIKit
 
-class NewEntryViewController: UIViewController {
+class NewEntry: UIViewController {
 
     //MARK: - Outlets
     @IBOutlet var datePicker: UIDatePicker!
@@ -16,23 +16,26 @@ class NewEntryViewController: UIViewController {
     
     //MARK: - Variables
     let context = (UIApplication.shared.delegate as! AppDelegate).persistentContainer.viewContext
-
-    let pholderArray = ["What are you grateful for today?", "What makes you happy?", "What makes you smile today?"]
+    //var entry: Entry?
+    
+    let pholderArray = ["What are you grateful for today?", "What makes you happy?", "What made you smile today?", "Think about happy thoughts..."]
     let df = DateFormatter()
     
     //MARK: - Lifecycles
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        df.dateFormat = "MMMM dd"
+        df.dateFormat = "MMM d, YYYY"
         let initDate = df.string(from: datePicker.date)
         navigationItem.title = "New entry for \(initDate)"
         
         
         textView.delegate = self
         let placeholder = pholderArray.randomElement()
-        //textView.text = placeholder
+        textView.text = placeholder
         textView.textColor = .lightGray
+        
+        tabBarController?.tabBar.isHidden = true
         
     }
     
@@ -44,7 +47,18 @@ class NewEntryViewController: UIViewController {
     //MARK: - Actions
     @IBAction func saveTapped(_ sender: Any) {
         saveEntry()
+        let vc = storyboard?.instantiateViewController(identifier: "entriesView") as! EntriesView
+        vc.navigationItem.hidesBackButton = true
+        vc.modalPresentationStyle = .currentContext
+        navigationController?.pushViewController(vc, animated: true)
+        //performSegue(withIdentifier: "toEntries", sender: self)
     }
+    
+    @IBAction func dateChanged(_ sender: Any) {
+        let dateOnTitle = df.string(from: datePicker.date)
+        navigationItem.title = "New entry for \(dateOnTitle)"
+    }
+    
     
     
     //MARK: - Functions
@@ -55,6 +69,7 @@ class NewEntryViewController: UIViewController {
         
         do {
             try self.context.save()
+            
         } catch {
             //error saving new entry
         }
@@ -63,7 +78,7 @@ class NewEntryViewController: UIViewController {
 }
 
 //MARK: - Extensions
-extension NewEntryViewController: UITextViewDelegate {
+extension NewEntry: UITextViewDelegate {
     func textViewDidBeginEditing(_ textView: UITextView) {
         if textView.textColor == UIColor.lightGray {
             textView.text = nil
@@ -77,6 +92,15 @@ extension NewEntryViewController: UITextViewDelegate {
         } else {
             saveButton.isEnabled = false
         }
+        
+        /*else if textView.textColor == UIColor.black {
+            textView.text = pholderArray.randomElement()
+            textView.textColor = UIColor.lightGray
+            saveButton.isEnabled = false
+        } else if textView.textColor == UIColor.lightGray {
+            textView.text = nil
+            textView.textColor = UIColor.black
+        } */
     }
     
     func textViewDidEndEditing(_ textView: UITextView) {
