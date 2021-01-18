@@ -14,6 +14,7 @@
 		630733C025A86D9900C82004 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 630733BF25A86D9900C82004 /* Assets.xcassets */; };
 		630733C325A86D9900C82004 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 630733C125A86D9900C82004 /* LaunchScreen.storyboard */; };
 		6307346525A86FA200C82004 /* EntriesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6307346425A86FA200C82004 /* EntriesView.swift */; };
+		6340D27025B5277C005CDFA6 /* Zen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6340D26F25B5277C005CDFA6 /* Zen.swift */; };
 		6388E06D25A8713C0075205D /* DailyZen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6388E06C25A8713C0075205D /* DailyZen.swift */; };
 		6388E07125A873C50075205D /* Entry+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6388E06F25A873C50075205D /* Entry+CoreDataClass.swift */; };
 		6388E07225A873C50075205D /* Entry+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6388E07025A873C50075205D /* Entry+CoreDataProperties.swift */; };
@@ -24,7 +25,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		630733B025A86D9800C82004 /* hamdalah.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hamdalah.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		630733B025A86D9800C82004 /* gratitud.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gratitud.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		630733B325A86D9800C82004 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		630733B525A86D9800C82004 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		630733BA25A86D9800C82004 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -33,6 +34,7 @@
 		630733C225A86D9900C82004 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		630733C425A86D9900C82004 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6307346425A86FA200C82004 /* EntriesView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EntriesView.swift; sourceTree = "<group>"; };
+		6340D26F25B5277C005CDFA6 /* Zen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Zen.swift; sourceTree = "<group>"; };
 		6388E06C25A8713C0075205D /* DailyZen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyZen.swift; sourceTree = "<group>"; };
 		6388E06F25A873C50075205D /* Entry+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Entry+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
 		6388E07025A873C50075205D /* Entry+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Entry+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
@@ -40,7 +42,7 @@
 		639EE50125AFD44E00DFD8D9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
 		639EE50525AFE86700DFD8D9 /* UpdateEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateEntry.swift; sourceTree = "<group>"; };
 		639EE50825B1B26E00DFD8D9 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
-		63ABC2B225A88A1E00750E4C /* NewEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = NewEntry.swift; path = hamdalah/View/NewEntry.swift; sourceTree = SOURCE_ROOT; };
+		63ABC2B225A88A1E00750E4C /* NewEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = NewEntry.swift; path = gratitud/Controller/NewEntry.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +59,7 @@
 		630733A725A86D9800C82004 = {
 			isa = PBXGroup;
 			children = (
-				630733B225A86D9800C82004 /* hamdalah */,
+				630733B225A86D9800C82004 /* gratitud */,
 				630733B125A86D9800C82004 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -65,12 +67,12 @@
 		630733B125A86D9800C82004 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				630733B025A86D9800C82004 /* hamdalah.app */,
+				630733B025A86D9800C82004 /* gratitud.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		630733B225A86D9800C82004 /* hamdalah */ = {
+		630733B225A86D9800C82004 /* gratitud */ = {
 			isa = PBXGroup;
 			children = (
 				630733B325A86D9800C82004 /* AppDelegate.swift */,
@@ -80,7 +82,7 @@
 				6307346325A86FA200C82004 /* Controller */,
 				630733C425A86D9900C82004 /* Info.plist */,
 			);
-			path = hamdalah;
+			path = gratitud;
 			sourceTree = "<group>";
 		};
 		630733CF25A86EEF00C82004 /* Model */ = {
@@ -89,6 +91,7 @@
 				6388E06F25A873C50075205D /* Entry+CoreDataClass.swift */,
 				6388E07025A873C50075205D /* Entry+CoreDataProperties.swift */,
 				630733BC25A86D9800C82004 /* hamdalah.xcdatamodeld */,
+				6340D26F25B5277C005CDFA6 /* Zen.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -119,9 +122,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		630733AF25A86D9800C82004 /* hamdalah */ = {
+		630733AF25A86D9800C82004 /* gratitud */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 630733C725A86D9900C82004 /* Build configuration list for PBXNativeTarget "hamdalah" */;
+			buildConfigurationList = 630733C725A86D9900C82004 /* Build configuration list for PBXNativeTarget "gratitud" */;
 			buildPhases = (
 				630733AC25A86D9800C82004 /* Sources */,
 				630733AD25A86D9800C82004 /* Frameworks */,
@@ -131,9 +134,9 @@
 			);
 			dependencies = (
 			);
-			name = hamdalah;
+			name = gratitud;
 			productName = hamdalah;
-			productReference = 630733B025A86D9800C82004 /* hamdalah.app */;
+			productReference = 630733B025A86D9800C82004 /* gratitud.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -150,7 +153,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 630733AB25A86D9800C82004 /* Build configuration list for PBXProject "hamdalah" */;
+			buildConfigurationList = 630733AB25A86D9800C82004 /* Build configuration list for PBXProject "gratitud" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -163,7 +166,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				630733AF25A86D9800C82004 /* hamdalah */,
+				630733AF25A86D9800C82004 /* gratitud */,
 			);
 		};
 /* End PBXProject section */
@@ -191,6 +194,7 @@
 				6388E07625A8874D0075205D /* EntryCell.swift in Sources */,
 				6388E07125A873C50075205D /* Entry+CoreDataClass.swift in Sources */,
 				630733B425A86D9800C82004 /* AppDelegate.swift in Sources */,
+				6340D27025B5277C005CDFA6 /* Zen.swift in Sources */,
 				6388E06D25A8713C0075205D /* DailyZen.swift in Sources */,
 				6307346525A86FA200C82004 /* EntriesView.swift in Sources */,
 				639EE50625AFE86700DFD8D9 /* UpdateEntry.swift in Sources */,
@@ -346,12 +350,12 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 72R42JA95Z;
-				INFOPLIST_FILE = hamdalah/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/gratitud/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.septynade.hamdalah;
+				PRODUCT_BUNDLE_IDENTIFIER = com.septynade.gratitud;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -365,12 +369,12 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 72R42JA95Z;
-				INFOPLIST_FILE = hamdalah/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/gratitud/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.septynade.hamdalah;
+				PRODUCT_BUNDLE_IDENTIFIER = com.septynade.gratitud;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -380,7 +384,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		630733AB25A86D9800C82004 /* Build configuration list for PBXProject "hamdalah" */ = {
+		630733AB25A86D9800C82004 /* Build configuration list for PBXProject "gratitud" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				630733C525A86D9900C82004 /* Debug */,
@@ -389,7 +393,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		630733C725A86D9900C82004 /* Build configuration list for PBXNativeTarget "hamdalah" */ = {
+		630733C725A86D9900C82004 /* Build configuration list for PBXNativeTarget "gratitud" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				630733C825A86D9900C82004 /* Debug */,

@@ -82,7 +82,11 @@ extension NewEntry: UITextViewDelegate {
     func textViewDidBeginEditing(_ textView: UITextView) {
         if textView.textColor == UIColor.lightGray {
             textView.text = nil
-            textView.textColor = .black
+            if traitCollection.userInterfaceStyle == .light {
+                textView.textColor = .black
+            } else {
+                textView.textColor = .white
+            }
         }
     }
     

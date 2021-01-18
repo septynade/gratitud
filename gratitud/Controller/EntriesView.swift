@@ -9,6 +9,9 @@ import CoreData
 import UIKit
 
 class EntriesView: UITableViewController {
+    //MARK: - Outlets
+    @IBOutlet var titleButton: UIBarButtonItem!
+    
     
     //MARK: - Variables
     
@@ -24,7 +27,6 @@ class EntriesView: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        //navigationItem.title = "Hamdalah"
         tabBarController?.tabBar.isHidden = false
         fetchEntries()
         
@@ -91,14 +93,15 @@ class EntriesView: UITableViewController {
     
     //MARK: - Actions
     @IBAction func addTapped(_ sender: Any) {
-        performSegue(withIdentifier: "toEntry", sender: self)
-    }
+        let vc = storyboard?.instantiateViewController(identifier: "newEntry") as! NewEntry
+        navigationController?.pushViewController(vc, animated: true)    }
     
     @IBAction func gearTapped(_ sender: Any) {
         performSegue(withIdentifier: "toSettings", sender: self)
     }
     
     @IBAction func titleTapped(_ sender: Any) {
+        
     }
     
     
